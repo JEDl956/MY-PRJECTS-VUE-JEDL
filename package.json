@@ -11,7 +11,7 @@
     "lint:check": "eslint .",
     "format": "prettier --write src/",
     "format:check": "prettier --check src/",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name my-projects-vue"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.36.0",
